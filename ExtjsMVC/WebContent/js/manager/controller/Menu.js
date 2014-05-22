@@ -4,6 +4,7 @@ Ext.define('manager.controller.Menu',{
     models: ['Menu'],  
     views: ['Menu'],  
     init: function () {  
+    //TODO:Controller is no finish	
     //初始化部分，下面是部分是给菜单绑定单击事件，接下来会用，这里先注释  
         this.control({  
             'sxptmenu': {  
