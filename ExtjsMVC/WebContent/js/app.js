@@ -4,7 +4,7 @@ Ext.Loader.setConfig({
 Ext.application({
 			name : 'manager',
 			appFolder : 'manager',
-			constrollers : [''],
+			controllers : ['Menu'],
 			autoCreateViewport: true,
 			launch : function() {
 				/*

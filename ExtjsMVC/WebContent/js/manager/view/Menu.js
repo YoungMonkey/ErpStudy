@@ -1,6 +1,7 @@
 Ext.define('manager.view.Menu',{ 
     extend: 'Ext.tree.Panel', 
-    alias: 'widget.sxptmenu', 
+    /*notice: sxptmenu for controller to use*/
+    alias: 'widget.managerMenu', 
     requires:['manager.store.Menus'], 
     initComponent : function(){ 
         Ext.apply(this,{ 

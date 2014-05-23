@@ -6,7 +6,8 @@ Ext.define("manager.view.Viewport", {
         'manager.view.Header', 
         'manager.view.Menu', 
         'manager.view.TabPanel', 
-        'manager.view.South' 
+        'manager.view.South' ,
+        'manager.view.SubjectList'
     ], 
     initComponent : function(){ 
         var me = this; 
